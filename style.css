@@ -42,7 +42,7 @@ body {
 }
 
 .dados-pessoais p {
-    margin: 20px 0 20px 0;
+    margin: 20px 30px 30px;
     font-size: 17px;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
@@ -64,19 +64,17 @@ body {
     margin: 80px 30px 30px;
 }
 
-.sobre-mim {
+.sobre-mim div{
     display: flex;
-    background-color: aliceblue;
-    margin: 50px 0 0 0;
+    margin: 50px;
 }
 
 .sobre-mim img{
     width: 200px;
 }
 
-.sobre-mim h3{
+.sobre-mim h1{
     font-size: 40px;
     font-weight: bold;
     font-family: 'Playfair Display', serif;
-    margin: 10px 0 13px 40px;
 }
