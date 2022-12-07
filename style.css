@@ -1,7 +1,8 @@
 body {
     width: 940px;
     margin: 0 auto;
-    background-color: #3f08bef6; 
+    background-color: #3f08bef6;
+    /*background: linear-gradient(180deg, #3f08bef6, #9447d3f6, #280d5bf6); */
 }
 
 .menu ul{
@@ -50,10 +51,18 @@ body {
     width: 20px;
 }
 
-.dados-pessoais a img {
+.tome{
+    margin-left: 30px;
+}
+
+.tome img{
     width: 40px;
-    padding: 10px;
-    margin-top: 5px;
+    margin-top: 20px;
+}
+
+.tome img:hover{
+    width: 45px;
+    transition: 0.5s;
 }
 
 .foto-perfil {
@@ -64,17 +73,43 @@ body {
     margin: 80px 30px 30px;
 }
 
+.sobre-mim {
+    margin: 100px 0 0 0;
+}
+
 .sobre-mim div{
     display: flex;
     margin: 50px;
 }
 
 .sobre-mim img{
-    width: 200px;
+    width: 300px;
+    margin-right: 30px;
 }
 
 .sobre-mim h1{
     font-size: 40px;
     font-weight: bold;
     font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 15px;
+}
+
+.sobre-mim p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+.education h1{
+     font-size: 40px;
+     font-weight: bold;
+     font-family: 'Playfair Display', serif;
+     text-align: center;
+     padding: 15px;
+}
+
+.edu {
+    display: flex;
+    background-color: white;
 }
