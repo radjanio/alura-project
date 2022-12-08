@@ -1,8 +1,8 @@
 body {
     width: 940px;
     margin: 0 auto;
-    background-color: #3f08bef6;
-    /*background: linear-gradient(180deg, #3f08bef6, #9447d3f6, #280d5bf6); */
+    /*background-color: #3f08bef6;*/
+    background: linear-gradient(180deg, #3f08bef6, #7900dbf6, #331a61f6); 
 }
 
 .menu ul{
@@ -74,7 +74,7 @@ body {
 }
 
 .sobre-mim {
-    margin: 100px 0 0 0;
+    margin: 150px 0 200px 0;
 }
 
 .sobre-mim div{
@@ -93,6 +93,7 @@ body {
     font-family: 'Playfair Display', serif;
     text-align: center;
     padding: 15px;
+    margin:30px;
 }
 
 .sobre-mim p {
@@ -101,14 +102,90 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
+.education{
+    margin: 150px 0 200px 0;
+}
+
 .education h1{
      font-size: 40px;
      font-weight: bold;
      font-family: 'Playfair Display', serif;
      text-align: center;
      padding: 15px;
+     margin: 30px;
 }
 
+.education div{
+    display: flex;
+}
+
+.education p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    padding:15px;
+}
+
+.edu1{
+    margin: 0 auto;
+    background-color: rgb(190, 19, 70);
+    width: 350px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.edu2{
+    margin: 0 auto;
+    background-color:forestgreen;
+    width: 350px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.habi {
+    margin: 150px 0 200px 0;
+}
+
+.habi h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+}
+
+.habi p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    padding:15px;
+}
+
+.habi div {
+    margin: 0 auto;
+    background-color: rgb(201, 78, 64);
+    width: 450px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.exp {
+    margin: 150px 0 200px 0;
+}
+
+.exp div{
+    display: flex;
+}
+
+.exp h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+}
 .edu {
     display: flex;
     background-color: white;
