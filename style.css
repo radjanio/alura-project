@@ -17,6 +17,8 @@ body {
     animation-iteration-count:infinite; */
 }
 
+
+
 .menu ul{
     display: flex;
     background-color:rgb(255, 240, 23);
@@ -309,7 +311,7 @@ body {
     }
 
     .nav-bar {
-        padding: 1.5rem 2.5rem;
+        display: none;
     }
     
     .nav-item {
@@ -326,6 +328,19 @@ body {
         cursor: pointer;
     }
     
+    .menu-mobile ul {
+
+        display: flex;
+
+        flex-direction: column;
+
+        text-align: center;
+
+        padding-bottom: 1rem;
+
+    }
+    
+    
     .icon-brabo {
         width: 30px;
     }
@@ -338,7 +353,7 @@ body {
     }
     
     .menu-moba .nav-iem {
-        display: none;
+        display: block;
         padding-top: 1.2rem;
     }
     
